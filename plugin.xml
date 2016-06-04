@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-native" version="0.1">
+    <name>Native</name>
+    <description>Cordova Plugin - Native</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,native</keywords>
+    <js-module src="www/device.js" name="native">
+        <clobbers target="native" />
+    </js-module>
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="Native">
+                <param name="ios-package" value="Native"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/Native.h" />
+        <source-file src="src/ios/Native.m" />
+    </platform>
+</plugin>
