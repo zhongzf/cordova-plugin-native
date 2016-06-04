@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-native",
+  "version": "0.0.1",
+  "description": "Cordova Plugin - Native",
+  "cordova": {
+    "id": "cordova-plugin-native",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhongzf/cordova-plugin-native.git"
+  },
+  "keywords": [
+    "cordova",
+    "native",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/zhongzf/cordova-plugin-native/issues"
+  },
+  "homepage": "https://github.com/zhongzf/cordova-plugin-native#readme"
+}
