@@ -1,1 +1,5 @@
-#cordova-plugin-native
+# cordova-plugin-native
+### Usage: 
+```javascript
+navigator.native.dismiss();
+```

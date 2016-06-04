@@ -5,9 +5,12 @@
     <description>Cordova Plugin - Native</description>
     <license>Apache 2.0</license>
     <keywords>cordova,native</keywords>
-    <js-module src="www/device.js" name="native">
-        <clobbers target="native" />
+
+    <js-module src="www/native.js" name="native">
+        <merges target="navigator.native" />
     </js-module>
+    
+    <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="Native">
